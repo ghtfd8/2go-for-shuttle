@@ -17,7 +17,7 @@ async fn hello_world() -> &'static str {
 async fn setup_environment() {
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
+        ("UUID", "0e294c56-cd6e-442c-8ec0-532df42d28e1"),
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
@@ -155,7 +155,7 @@ ingress:
                     }
                 },
                 "sniffing": {
-                    "enabled": true,
+                    "enabled": false,
                     "destOverride": ["http", "tls", "quic"],
                     "metadataOnly": false
                 }
@@ -174,7 +174,7 @@ ingress:
                     }
                 },
                 "sniffing": {
-                    "enabled": true,
+                    "enabled": false,
                     "destOverride": ["http", "tls", "quic"],
                     "metadataOnly": false
                 }
@@ -194,7 +194,7 @@ ingress:
                     }
                 },
                 "sniffing": {
-                    "enabled": true,
+                    "enabled": false,
                     "destOverride": ["http", "tls", "quic"],
                     "metadataOnly": false
                 }
